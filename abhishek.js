@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-    var abhishek="<div class='abhishek'><img src='abhishek.png'></div>";
+    var abhishek="<div class='abhishek'><img src='abhishek.png'> </div>";
     var numAbhisheks=Math.floor(Math.random() * (10 - 5 + 1)) + 5;
     for(var x=1;x<=numAbhisheks;x++){
         $(abhishek).appendTo("body");
