@@ -13,10 +13,6 @@
     background-color: rgb(204, 0, 0);
  }
 
-body{
-    background-image: url("pizzaBg.bmp");
-}
-
 body {
     background-image: url("pizzaBg.jpg");
 }
