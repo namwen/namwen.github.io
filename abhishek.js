@@ -1,13 +1,4 @@
-$('.abhishek').click(function(){
-    $('.abhishek').animate({  borderSpacing: -1080 }, {
-        step: function(now,fx) {
-        $(this).css('-webkit-transform','rotate('+now+'deg)'); 
-        $(this).css('-moz-transform','rotate('+now+'deg)');
-        $(this).css('transform','rotate('+now+'deg)');
-        },
-        duration:'slow'
-    },'linear');
-});
+
 
 $(document).ready(function(){
     var abhishek="<div class='abhishek'><p>Random<br />Box</p></div>";
@@ -25,4 +16,17 @@ $(document).ready(function(){
         var posy = Math.round(Math.random() * wh)-20;
         $(this).css("top", posy + "px").css("left", posx + "px").css("transform",rotation).css("-ms-transform",rotation).css("-webkit-transform",rotation);
     });
+
+    //they spinnin' baby
+    $('.abhishek').click(function(){
+        $('.abhishek').animate({  borderSpacing: -1080 }, {
+            step: function(now,fx) {
+            $(this).css('-webkit-transform','rotate('+now+'deg)'); 
+            $(this).css('-moz-transform','rotate('+now+'deg)');
+            $(this).css('transform','rotate('+now+'deg)');
+            },
+            duration:'slow'
+        },'linear');
+    });
+
 });
