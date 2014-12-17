@@ -7,6 +7,9 @@
 	background-repeat: no-repeat;
 }
 
+.navbar-brand{
+    font-family: 'Cardo', serif;
+}
 
 .navbar{
     text-align: center;
