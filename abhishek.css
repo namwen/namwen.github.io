@@ -7,16 +7,18 @@
 	background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
+
 .navbar{
     text-align: center;
     background-color: rgb(204, 0, 0);
+ }
+
 body{
     background-image: url("pizzaBg.bmp");
-=======
+}
+
 body {
     background-image: url("pizzaBg.jpg");
->>>>>>> b7146cce76700070525b4ccfbb52efa1605af03e
 }
 
 
