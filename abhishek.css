@@ -15,6 +15,7 @@
 
 body {
     background-image: url("pizzaBg.jpg");
+	background-size: cover;
 }
 
 
