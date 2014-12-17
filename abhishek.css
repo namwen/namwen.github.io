@@ -3,7 +3,12 @@
   	width: 150px;
 	height: 150px;
 	background-image: url('abhishek.png');
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+body {
+    background-image: url("pizzaBg.bmp");
 }
 
 
