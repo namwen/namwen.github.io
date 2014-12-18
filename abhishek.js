@@ -16,7 +16,6 @@ $(document).ready(function(){
         var posy = Math.round(Math.random() * wh)-20;
         $(this).css("top", posy + "px").css("left", posx + "px").css("transform",rotation).css("-ms-transform",rotation).css("-webkit-transform",rotation);
     });
-
     //they spinnin' baby
     $('.abhishek').click(function(){
         $('.abhishek').animate({  borderSpacing: -1080 }, {
